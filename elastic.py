@@ -85,7 +85,6 @@ def update():
                     ball[Y_VELOCITY], target_ball[Y_VELOCITY] = new_velocity(ball[Y_VELOCITY], ball[MASS], target_ball[Y_VELOCITY], target_ball[MASS])
                     ball[ALREADY_HIT] = True    
 
-input()
 while True:
     for ev in pygame.event.get():
         if ev.type == pygame.QUIT:
